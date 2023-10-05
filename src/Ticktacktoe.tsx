@@ -88,7 +88,7 @@ function Ticktacktoe() {
 
     const playerWinsOrNextTurn = (checkForWin(board)) ? 
     <>
-    <div>{currentPlayer} wins</div> 
+    <div>{currentPlayer} wins!</div> 
     </> : <div> {currentPlayer}'s turn</div>
  
 return (
@@ -103,7 +103,8 @@ return (
       }}>
         <button className="button-64" role="button" onClick={() =>{newGame()}}><span className="text" >New Game</span></button></div>
         <div>
-        <div>{playerWinsOrNextTurn}</div>
+        <div style={{ 
+        marginBottom: '25px'}}>{playerWinsOrNextTurn}</div>
         </div>
       <div>
         {board.map((row, r) => {
@@ -115,14 +116,8 @@ return (
                 <div 
                 key={c} 
                 onClick={() => handleClick(r,c)}
-                style={{
-                  border: 'solid black 3px',
-                  height: '100px', 
-                  width: '100px',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center'
-                }}> 
+                className='cell'
+                > 
                 {cell}
             </div>
             )})}

@@ -9,9 +9,32 @@
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  color: #FFFFFF;
+  color: #ffd52c;
   font-family: Phantomsans, sans-serif;
   font-size:x-large;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cell {
+  box-shadow: rgb(66, 16, 120) 0 15px 30px -5px;
+  background-color: rgb(5, 6, 45);
+  cursor: pointer;
+  border: solid 2px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* CSS */
@@ -27,7 +50,7 @@
   color: #FFFFFF;
   display: flex;
   font-family: Phantomsans, sans-serif;
-  font-size: 20px;
+  font-size: 27px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
