@@ -1,5 +1,4 @@
 #root {
-  margin: 0 auto;
   text-align: center;
   width: 100vw;
   height: 100vh;
@@ -11,7 +10,7 @@
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   color: #FFFFFF;
-  font-family:Verdana, Tahoma, sans-serif;
+  font-family: Phantomsans, sans-serif;
   font-size:x-large;
 }
 

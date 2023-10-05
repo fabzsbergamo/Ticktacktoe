@@ -98,7 +98,8 @@ return (
         textAlign: 'center',
         justifyContent: 'center',
         display: 'flex',
-        color:'red'
+        color:'red',
+        marginBottom: '25px'
       }}>
         <button className="button-64" role="button" onClick={() =>{newGame()}}><span className="text" >New Game</span></button></div>
         <div>
